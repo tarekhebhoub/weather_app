@@ -2,6 +2,7 @@ const path=require('path');
 const express =require('express')
 const hbs=require('hbs')
 const app =express();
+const port=process.env.PORT || 3020;
 const geocode= require('./utils/geocode')
 const forecast= require('./utils/forecast')
 
